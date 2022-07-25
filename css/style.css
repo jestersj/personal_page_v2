@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=Raleway:wght@400;700;800&display=swap');
+
+:root {
+    --light_gray: #9C9C9C;
+    --dark_black: #080808;
+    --btn_green: #3F8E00;
+    --menu_gray: #1B1B1B;
+}
+.bg_dark {
+    background-color: #080808;
+}
+.bg_gray {
+    background-color: var(--menu_gray);
+}
+.vmp_rounded {
+    border-radius: 50%;
+}
+.vmp_text {
+    font-family: 'IBM Plex Mono', monospace;
+    color: var(--light_gray);
+    padding: 10px 0;
+}
+.vmp_text_form {
+    font-family: 'IBM Plex Mono', monospace;
+    color: white;
+    padding: 5px 0;
+}
+.vmp_heading1 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: bolder
+}
+.vmp_heading2 {
+    font-family: 'Raleway', sans-serif;
+    color: var(--dark_black);
+    font-weight: bolder
+}
+.oleg {
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 8px 30px;
+    color: var(--bs-white);
+    background-color: #3F8E00;
+}
+.bg_gr {
+    background-color: var(--btn_green);
+}
+
+header, section {
+    padding: 100px 0;
+}
+.vmp_border {
+    border: 2px solid;
+    border-image: linear-gradient(to right, #484848, #080808);
+    border-image-slice: 1;
+    padding: 20px;
+    margin: 20px;
+}
